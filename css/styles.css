@@ -145,6 +145,7 @@ ul {
   width: 528px;
   height: 581px;
   cursor: auto;
+  border-radius: 4px;
 }
 
 .modal-close {
@@ -509,6 +510,66 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+.newsletter-email-section {
+  padding-left: 78px;
+}
+.newsletter-label {
+  display: block;
+  margin-bottom: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.newsletter-email-input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  height: 50px;
+  width: 358px;
+  background-color: transparent;
+}
+.newsletter-email-input:focus-within {
+  border-color: #2196f3;
+}
+.newsletter-email-input[placeholder] {
+  padding-left: 16px;
+}
+.newsletter-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  padding: 10px 41px 10px 42px;
+  border-radius: 4px;
+}
+.newsletter-icon {
+  fill: #fff;
+}
+.modal-send-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  padding: 10px 41px 10px 42px;
+  border-radius: 4px;
 }
 /* 
 VVV PORTFOLIO SECTION VVV
