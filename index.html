@@ -36,7 +36,7 @@
               <li class="nav-item">
                 <a
                   class="nav-portfolio link"
-                  href="https://tomaszandrzejpawlowski.github.io/goit-markup-hw-05/portfolio.html"
+                  href="https://tomaszandrzejpawlowski.github.io/goit-markup-hw-06/portfolio.html"
                   >Portfolio</a
                 >
               </li>
@@ -706,28 +706,50 @@
             />
           </svg>
         </button>
-        <!-- <div>
-          <h3>Zostaw swoje dane w formularzu poniżej</h3>
+        <div class="modal-form">
+          <h3 class="modal-legend">Zostaw swoje dane w formularzu poniżej</h3>
           <form name="modal-user-id">
-            <label for="name">Imie</label>
-            <input type="text" name="name" id="name">
+            <label class="label"
+              >Imie
+              <div class="modal-input-div">
+                <input class="modal-input" type="text" name="name" /></div
+            ></label>
 
-            <label for="tel">Telefon</label>
-            <input type="text" name="tel" id="tel">
+            <label class="label"
+              >Telefon
+              <div class="modal-input-div">
+                <input class="modal-input" type="text" name="tel" /></div
+            ></label>
 
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
-            
-            <label for="comment">Komentarz</label>
-            <textarea name="comment" rows="5" placeholder="Wprowadź tekst" id="comment">
+            <label class="label"
+              >Email
+              <div class="modal-input-div">
+                <input class="modal-input" type="email" name="email" /></div
+            ></label>
 
-              <label>
-                <input type="checkbox" name="terms"> 
-                <span>Oświadczam iż akceptuję <a href="#">Regulamin</a> i <a href="#">Politykę Prywatności</a>.</span>
-              </label>
-              <button class="modal-send-button" type="submit">Wyślij</button>
+            <label class="label textarea-label"
+              >Komentarz
+              <div class="textarea-input-div">
+                <textarea
+                  class="textarea-input"
+                  name="comment"
+                  rows="5"
+                  placeholder="Wprowadź tekst"
+                ></textarea>
+              </div>
+            </label>
+            <label class="declaration-label">
+              <input type="checkbox" name="terms" />
+              <span class="modal-declaration"
+                >Oświadczam iż akceptuję
+                <a class="declaration-link" href="#">Regulamin</a> i
+                <a class="declaration-link" href="#">Politykę Prywatności</a
+                >.</span
+              >
+            </label>
+            <button class="modal-send-button" type="submit">Wyślij</button>
           </form>
-        </div> -->
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
