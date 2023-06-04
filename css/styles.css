@@ -197,7 +197,7 @@ ul {
   display: flex;
 }
 .modal-input {
-  margin: 10px auto;
+  margin: 10px auto 10px 0;
   width: 366px;
   height: 20px;
   border: none;
@@ -229,6 +229,23 @@ ul {
 .label:focus-within .textarea-input-div {
   border-color: #2196f3;
 }
+.modal-icon {
+  fill: #212121;
+  margin: auto;
+}
+.label:focus-within .modal-icon {
+  fill: #2196f3;
+}
+/* .modal-checkbox {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.declaration-label {
+  background-image: url(./images/icons-svg/icons.svg#icon-square);
+  background-repeat: no-repeat;
+  background-size: contain;
+} */
 .modal-declaration {
   font-family: "Roboto";
   font-style: normal;
